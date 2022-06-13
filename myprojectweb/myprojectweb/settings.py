@@ -77,7 +77,9 @@ WSGI_APPLICATION = 'myprojectweb.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': BASE_DIR / 'django_blogging',
+        'NAME': 'django_blogging',
+        'USER' : 'root',
+        'PASSWORD' : ''
     }
 }
 
