@@ -1,0 +1,21 @@
+in createsuperuser
+Username : thamakorn
+Email address : thamakorn.aom31@gmail.com
+Password : aom_31433310
+
+
+##Category
+ID  integer
+CategoryName   CharField
+
+##data Blog
+
+ID      integer
+Name    CharField (short data)
+Description     TextField (long data)
+Content         TextField
+Writer          CharField
+Views           integer
+image           imageField
+Created         DateTimeField
+Category_id     integer
